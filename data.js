@@ -1,9 +1,13 @@
 import musk from "./images/musk.png";
+import troll from "./images/troll.jpg";
+import chucknorris from "./images/chucknorris.jpeg";
+import tomCruise from "./images/tcruise.png";
+import flower from "./images/flower.png";
 
 export const tweetsData = [
   {
     handle: `@TrollBot66756542 💎`,
-    profilePic: `images/troll.jpg`,
+    profilePic: troll,
     likes: 27,
     retweets: 10,
     tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low prices. 
@@ -22,12 +26,12 @@ export const tweetsData = [
     replies: [
       {
         handle: `@TomCruise ✅`,
-        profilePic: `tcruise.png`,
+        profilePic: tomCruise,
         tweetText: `Yes! Sign me up! 😎🛩`,
       },
       {
         handle: `@ChuckNorris ✅`,
-        profilePic: `images/chucknorris.jpeg`,
+        profilePic: chucknorris,
         tweetText: `I went last year😴`,
       },
     ],
@@ -37,7 +41,7 @@ export const tweetsData = [
   },
   {
     handle: `@NoobCoder12`,
-    profilePic: `images/flower.png`,
+    profilePic: flower,
     likes: 10,
     retweets: 3,
     tweetText: `Are you a coder if you only know HTML?`,
