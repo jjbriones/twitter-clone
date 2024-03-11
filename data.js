@@ -3,6 +3,8 @@ import troll from "./images/troll.jpg";
 import chucknorris from "./images/chucknorris.jpeg";
 import tomCruise from "./images/tcruise.png";
 import flower from "./images/flower.png";
+import overflow from "./images/overflow.png";
+import love from "./images/love.png";
 
 export const tweetsData = [
   {
@@ -48,12 +50,12 @@ export const tweetsData = [
     replies: [
       {
         handle: `@StackOverflower ☣️`,
-        profilePic: `images/overflow.png`,
+        profilePic: overflow,
         tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
       },
       {
         handle: `@YummyCoder64`,
-        profilePic: `images/love.png`,
+        profilePic: love,
         tweetText: `You are wonderful just as you are! ❤️`,
       },
     ],
